@@ -1,0 +1,29 @@
+{
+  "Studenten":
+[
+  { "Vorname": "Moutaz",
+    "Nachname": "Hamuda",
+    "Fakultat": "Maschinenbau",
+    "telefonnummer": "01520"
+
+},
+  {
+    "Vorname": "Max",
+    "Nachname": "Müller",
+    "Fakultat": "Maschinenbau",
+    "telefonnummer": "01520"
+  },
+   {
+    "Vorname": "Laura",
+    "Nachname": "Hoffmann",
+    "Fakultat": "Maschinenbau",
+    "telefonnummer": "01520"
+  },
+   {
+    "Vorname": "Steven",
+    "Nachname": "Hartmann",
+    "Fakultat": "Maschinenbau",
+    "telefonnummer": "01520"
+  }
+]
+}

@@ -1,0 +1,50 @@
+version: "2.0"
+
+stories:
+
+- story: estes Programm mit action
+  steps:
+  - intent: hallo_world
+  - action: action_hello_world
+
+- story: suche nach Professor 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_help
+  - intent: such_Professor
+  - action: action_such_Professor
+  - intent: Info_professor
+  - action: action_Info_professor
+
+- story: suche nach Professor 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - action: utter_help
+  - intent: such_Professor
+  - action: action_such_Professor
+  - intent: Info_professor
+  - action: action_Info_professor
+
+
+- story: suche nach Professor 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_help
+  - intent: such_Professor
+  - action: action_such_Professor
+  - intent: Info_professor
+  - action: action_Info_professor

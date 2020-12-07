@@ -1,0 +1,61 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - hallo_world
+  - such_Professor
+  - Info_professor
+
+entities:
+- Prof
+- info
+
+actions:
+  - utter_greet
+  - utter_help
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_unhappy
+  - utter_goodbye
+  - utter_iamabot
+  - action_hello_world
+  - action_such_Professor
+  - action_Info_professor
+
+
+responses:
+  utter_greet:
+  - text: Hey! wie geht es dir?
+  utter_help:
+    - text: wie kann ich dir helfen
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'hier ist etwas für dich:'
+  utter_did_that_help:
+  - text: hat dir das geholfen?
+  utter_happy:
+  - text: Toll,toll !
+  utter_unhappy:
+  - text: Es tut mir leid :(
+  utter_goodbye:
+  - text: Tschüs
+  utter_iamabot:
+  - text: ich bin bot und main Name ist Rasa.
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+slot:
+  Prof:
+    type: unfeaturized

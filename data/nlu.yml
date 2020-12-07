@@ -1,0 +1,124 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - Hallo
+    - hi
+    - Hallo Leute
+    - Guten Morgen
+    - Guten Nacht
+    - moin
+    - hallöchen
+    - los geht
+    - hey dude
+    - Grüß Gott!
+    - Servus
+    - Moin moin
+
+- intent: goodbye
+  examples: |
+    - Tschüs
+    - Ciao
+    - Machs gut!
+    - Bis dann
+    - Bis später
+    - Bis morgen
+    - Schönen Tag
+    - Pass gut auf dich auf!
+    - Man sieht sich!
+    - Wir sehen uns!
+    - Auf Wiederschauen
+    - Auf Wiedersehen
+
+- intent: affirm
+  examples: |
+    - ja
+    - j
+    - richtig
+    - natürlich
+    - das klingt gut
+    - Korrekt
+
+- intent: deny
+  examples: |
+    - nein
+    - n
+    - nimals
+    - ich glaube nicht
+    - ich mag das nicht
+    - nie
+    - wirklich
+
+- intent: mood_great
+  examples: |
+     - perfekt
+     - großartig
+     - toll
+     - wunderbar
+     - Ich fühle mich sehr gut
+     - Mir geht es großartig
+     - Mir geht's super
+     - Super begeistert
+     - extrem gut
+     - so perfekt
+     - so gut
+     - so perfekt
+     - gut
+
+
+- intent: mood_unhappy
+  examples: |
+     - Mein Tag war schrecklich
+     - Ich bin traurig
+     - Ich fühle mich nicht sehr gut
+     - Ich bin enttäuscht
+     - sehr traurig
+     - Ich bin so traurig
+     - traurig
+     - Mir geht es nich gut
+     - unglücklich
+     - nicht gut
+     - nicht sehr gut
+     - extrem traurig
+     - Mir geht's nicht besonders
+     - Nicht besonders
+     - so traurig
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein Bot?
+    - bist du ein Mensch?
+    - rede ich mit einem Bot?
+    - spreche ich mit einem Mensch?
+
+- intent: hallo_world
+  examples: |
+    - programm
+    - erstes Programm
+    - action
+
+- intent: such_Professor
+  examples: |
+    - ist [Moutaz](Prof) Student
+    - ist [Laura](Prof) Student
+    - ist [Max](Prof) Student
+    - ist [Markus](Prof) Student
+    - ist [Basti](Prof) ein Student
+    - does [Schmitt](Prof) existiert
+    - gehört [Müller] zu (Prof)
+    - sind [Müller](Prof) and [Herrman](Prof) studenten?
+    - ist [rasa](Prof) ein student?
+    - Hey ist [rasa](Prof) ein student?
+    - sind [Müller](Prof) und [Hoffman](Prof) stuenten?
+    - sind [stefen](Prof), [Max](Prof) und [Laura](Prof) Studenten?
+
+- intent: Info_professor
+  examples: |
+    - [Moutaz](info)
+    - [Max](info)
+    - [Laura](info)
+    - [Steven](info)
+
+
